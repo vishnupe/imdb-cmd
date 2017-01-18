@@ -1,0 +1,8 @@
+#!/bin/bash
+var=$NAUTILUS_SCRIPT_SELECTED_URIS
+var2=${var// /-}
+var3=${var2//%20/-}
+/usr/bin/gnome-terminal -e "imdb $var3" 
+
+
+
