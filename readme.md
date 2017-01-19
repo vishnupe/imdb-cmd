@@ -21,4 +21,8 @@ Give the script execution permission. It is important, otherwise no change will 
 
 chmod +x ~/.gnome2/nautilus-scripts/Imdb-rating.
 
+To run from terminal use command 
+
+imdb <fileName>
+
 
